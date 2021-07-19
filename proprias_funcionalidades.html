@@ -7,20 +7,22 @@
 	function pulaLinha() {
 
 		document.write("<br>");
-		document.write("<br>");
 		document.write("<br>"); 
 	}
 
+	function mostra(frase) {
 
-	document.write("Flávio tem " + (ano - 1977) + " anos.");
-	pulaLinha();
+		document.write(frase);
+		pulaLinha();
+	}
 
-	document.write("Joaquim tem " + (ano - 1996) + " anos.");
-	pulaLinha();
+	mostra ("Flávio tem " + (ano - 1977) + " anos.");
+
+	mostra ("Joaquim tem " + (ano - 1996) + " anos.");
 	
 	ano = 2021; 
-	document.write("Barney tem " + (ano - 1976) + " anos.");
-	pulaLinha();
+	mostra ("Barney tem " + (ano - 1976) + " anos.");
+
 
 
 </script>
