@@ -1,0 +1,33 @@
+<meta charset = "UTF-8">
+
+<script> //exercício sobre uma função sendo capaz de receber quatro parâmetros e sobre retorno da função;
+	
+	function pulaLinha() {
+		document.write("<br>");
+		document.write("<br>");
+	}
+
+	function mostra(frase)  {
+		document.write(frase);
+		pulaLinha();
+	}
+
+	function calculaImc(altura, peso)  {
+
+		var imc = peso / (altura * altura);
+		return imc;
+	}
+
+
+	var imcFlavio = calculaImc(1.71, 73);
+	var imcAmigo = calculaImc(1.72, 68);
+
+	mostra(imcFlavio);
+	mostra(imcAmigo);
+	
+
+	
+
+
+
+</script>
